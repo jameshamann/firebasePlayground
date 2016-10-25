@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A23878E1DBF70C1003D679B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23878D1DBF70C1003D679B /* AppDelegate.swift */; };
+		1A2387901DBF70C1003D679B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23878F1DBF70C1003D679B /* ViewController.swift */; };
+		1A2387931DBF70C1003D679B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2387911DBF70C1003D679B /* Main.storyboard */; };
+		1A2387951DBF70C1003D679B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2387941DBF70C1003D679B /* Assets.xcassets */; };
+		1A2387981DBF70C1003D679B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2387961DBF70C1003D679B /* LaunchScreen.storyboard */; };
+		1A2387A31DBF70C1003D679B /* firebasePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2387A21DBF70C1003D679B /* firebasePlaygroundTests.swift */; };
+		1A2387AE1DBF70C1003D679B /* firebasePlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2387AD1DBF70C1003D679B /* firebasePlaygroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A23879F1DBF70C1003D679B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2387821DBF70C0003D679B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2387891DBF70C0003D679B;
+			remoteInfo = firebasePlayground;
+		};
+		1A2387AA1DBF70C1003D679B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2387821DBF70C0003D679B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2387891DBF70C0003D679B;
+			remoteInfo = firebasePlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A23878A1DBF70C0003D679B /* firebasePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A23878D1DBF70C1003D679B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A23878F1DBF70C1003D679B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A2387921DBF70C1003D679B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A2387941DBF70C1003D679B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2387971DBF70C1003D679B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A2387991DBF70C1003D679B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A23879E1DBF70C1003D679B /* firebasePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebasePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2387A21DBF70C1003D679B /* firebasePlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasePlaygroundTests.swift; sourceTree = "<group>"; };
+		1A2387A41DBF70C1003D679B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2387A91DBF70C1003D679B /* firebasePlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebasePlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2387AD1DBF70C1003D679B /* firebasePlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasePlaygroundUITests.swift; sourceTree = "<group>"; };
+		1A2387AF1DBF70C1003D679B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2387871DBF70C0003D679B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A23879B1DBF70C1003D679B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2387A61DBF70C1003D679B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2387811DBF70C0003D679B = {
+			isa = PBXGroup;
+			children = (
+				1A23878C1DBF70C0003D679B /* firebasePlayground */,
+				1A2387A11DBF70C1003D679B /* firebasePlaygroundTests */,
+				1A2387AC1DBF70C1003D679B /* firebasePlaygroundUITests */,
+				1A23878B1DBF70C0003D679B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A23878B1DBF70C0003D679B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A23878A1DBF70C0003D679B /* firebasePlayground.app */,
+				1A23879E1DBF70C1003D679B /* firebasePlaygroundTests.xctest */,
+				1A2387A91DBF70C1003D679B /* firebasePlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A23878C1DBF70C0003D679B /* firebasePlayground */ = {
+			isa = PBXGroup;
+			children = (
+				1A23878D1DBF70C1003D679B /* AppDelegate.swift */,
+				1A23878F1DBF70C1003D679B /* ViewController.swift */,
+				1A2387911DBF70C1003D679B /* Main.storyboard */,
+				1A2387941DBF70C1003D679B /* Assets.xcassets */,
+				1A2387961DBF70C1003D679B /* LaunchScreen.storyboard */,
+				1A2387991DBF70C1003D679B /* Info.plist */,
+			);
+			path = firebasePlayground;
+			sourceTree = "<group>";
+		};
+		1A2387A11DBF70C1003D679B /* firebasePlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2387A21DBF70C1003D679B /* firebasePlaygroundTests.swift */,
+				1A2387A41DBF70C1003D679B /* Info.plist */,
+			);
+			path = firebasePlaygroundTests;
+			sourceTree = "<group>";
+		};
+		1A2387AC1DBF70C1003D679B /* firebasePlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2387AD1DBF70C1003D679B /* firebasePlaygroundUITests.swift */,
+				1A2387AF1DBF70C1003D679B /* Info.plist */,
+			);
+			path = firebasePlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2387891DBF70C0003D679B /* firebasePlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2387B21DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlayground" */;
+			buildPhases = (
+				1A2387861DBF70C0003D679B /* Sources */,
+				1A2387871DBF70C0003D679B /* Frameworks */,
+				1A2387881DBF70C0003D679B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firebasePlayground;
+			productName = firebasePlayground;
+			productReference = 1A23878A1DBF70C0003D679B /* firebasePlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A23879D1DBF70C1003D679B /* firebasePlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2387B51DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlaygroundTests" */;
+			buildPhases = (
+				1A23879A1DBF70C1003D679B /* Sources */,
+				1A23879B1DBF70C1003D679B /* Frameworks */,
+				1A23879C1DBF70C1003D679B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2387A01DBF70C1003D679B /* PBXTargetDependency */,
+			);
+			name = firebasePlaygroundTests;
+			productName = firebasePlaygroundTests;
+			productReference = 1A23879E1DBF70C1003D679B /* firebasePlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A2387A81DBF70C1003D679B /* firebasePlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2387B81DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlaygroundUITests" */;
+			buildPhases = (
+				1A2387A51DBF70C1003D679B /* Sources */,
+				1A2387A61DBF70C1003D679B /* Frameworks */,
+				1A2387A71DBF70C1003D679B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2387AB1DBF70C1003D679B /* PBXTargetDependency */,
+			);
+			name = firebasePlaygroundUITests;
+			productName = firebasePlaygroundUITests;
+			productReference = 1A2387A91DBF70C1003D679B /* firebasePlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2387821DBF70C0003D679B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Turfy;
+				TargetAttributes = {
+					1A2387891DBF70C0003D679B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1A23879D1DBF70C1003D679B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1A2387891DBF70C0003D679B;
+					};
+					1A2387A81DBF70C1003D679B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1A2387891DBF70C0003D679B;
+					};
+				};
+			};
+			buildConfigurationList = 1A2387851DBF70C0003D679B /* Build configuration list for PBXProject "firebasePlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2387811DBF70C0003D679B;
+			productRefGroup = 1A23878B1DBF70C0003D679B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2387891DBF70C0003D679B /* firebasePlayground */,
+				1A23879D1DBF70C1003D679B /* firebasePlaygroundTests */,
+				1A2387A81DBF70C1003D679B /* firebasePlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2387881DBF70C0003D679B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2387981DBF70C1003D679B /* LaunchScreen.storyboard in Resources */,
+				1A2387951DBF70C1003D679B /* Assets.xcassets in Resources */,
+				1A2387931DBF70C1003D679B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A23879C1DBF70C1003D679B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2387A71DBF70C1003D679B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2387861DBF70C0003D679B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2387901DBF70C1003D679B /* ViewController.swift in Sources */,
+				1A23878E1DBF70C1003D679B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A23879A1DBF70C1003D679B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2387A31DBF70C1003D679B /* firebasePlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2387A51DBF70C1003D679B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2387AE1DBF70C1003D679B /* firebasePlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A2387A01DBF70C1003D679B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2387891DBF70C0003D679B /* firebasePlayground */;
+			targetProxy = 1A23879F1DBF70C1003D679B /* PBXContainerItemProxy */;
+		};
+		1A2387AB1DBF70C1003D679B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2387891DBF70C0003D679B /* firebasePlayground */;
+			targetProxy = 1A2387AA1DBF70C1003D679B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A2387911DBF70C1003D679B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2387921DBF70C1003D679B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A2387961DBF70C1003D679B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2387971DBF70C1003D679B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A2387B01DBF70C1003D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2387B11DBF70C1003D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2387B31DBF70C1003D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = firebasePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A2387B41DBF70C1003D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = firebasePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A2387B61DBF70C1003D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firebasePlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebasePlayground.app/firebasePlayground";
+			};
+			name = Debug;
+		};
+		1A2387B71DBF70C1003D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firebasePlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebasePlayground.app/firebasePlayground";
+			};
+			name = Release;
+		};
+		1A2387B91DBF70C1003D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firebasePlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firebasePlayground;
+			};
+			name = Debug;
+		};
+		1A2387BA1DBF70C1003D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firebasePlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Turfy.firebasePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firebasePlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2387851DBF70C0003D679B /* Build configuration list for PBXProject "firebasePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2387B01DBF70C1003D679B /* Debug */,
+				1A2387B11DBF70C1003D679B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2387B21DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2387B31DBF70C1003D679B /* Debug */,
+				1A2387B41DBF70C1003D679B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A2387B51DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2387B61DBF70C1003D679B /* Debug */,
+				1A2387B71DBF70C1003D679B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A2387B81DBF70C1003D679B /* Build configuration list for PBXNativeTarget "firebasePlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2387B91DBF70C1003D679B /* Debug */,
+				1A2387BA1DBF70C1003D679B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2387821DBF70C0003D679B /* Project object */;
+}
